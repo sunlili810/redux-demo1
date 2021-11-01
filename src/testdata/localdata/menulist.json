@@ -1,0 +1,36 @@
+{
+  "result": 0,
+  "list": [ {
+    "key": "doorguard/organization",
+    "name": "组织单位",
+    "icon": "bars"
+  }, {
+    "key": "doorguard/people",
+    "name": "人员管理",
+    "icon": "team"
+  }, {
+    "key": "doorguard/accessControl",
+    "name": "门禁控制器",
+    "icon": "laptop"
+  },{
+      "key": "doorguard/doorLock",
+      "name": "门锁管理",
+      "icon": "lock"
+    },
+    {
+      "key": "doorguard/accessControlCard",
+      "name": "门禁卡管理",
+      "icon": "credit-card"
+    },
+    {
+      "key": "doorguard/accessControlAuthority",
+      "name": "门禁授权",
+      "icon": "key"
+    },
+    {
+      "key": "doorguard/cardRecord",
+      "name": "门禁统计",
+      "icon": "pie-chart"
+    }
+  ]
+}

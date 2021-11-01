@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div id="dialog"></div>
+    <div id="dialog2"></div>
+    <script>
+     // window.headTitle="测试项目";
+     // window.routername='/huadiansmall';
+     // const tempSearch = location.search.split('=');
+     // const tempUrl = tempSearch[1].split('&');
+     // window.projectid=tempUrl[0];
+     // window.resid=tempSearch[2];
+     // window.apiUrl = "http://192.168.8.100:8080/InfiComboPluginApp";
+     // window.isDebug = false;
+
+
+     window.socketUrl = "ws://192.168.8.88:8080/emsapi/v1/websocket";
+     window.projectid='T20190927P1001'
+     //window.apiUrl = "http://192.168.8.88:8080/";//接口地址
+     window.apiUrl = "/inficombo";
+     //window.globalConfigUrl = "http://192.168.8.88:8081/set.json";//全局变量配置存放json文件地址
+     window.terminalUrl = "http://192.168.8.88:8080/aesweb";//终端应用模型管理
+     window.isDebug = false;
+
+    </script>
+  </body>
+</html>
